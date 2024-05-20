@@ -1,0 +1,97 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #eef3f7;
+}
+
+.container {
+    width: 800px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+}
+
+.header {
+    background-color: #c7c7f5;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 3px solid #0000ff;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 48px;
+    color: #4b0082;
+    text-shadow: 2px 2px #000;
+}
+
+.sidebar {
+    float: left;
+    width: 150px;
+    background-color: #0000ff;
+    padding-top: 10px;
+    height: 300px;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar ul li {
+    margin: 10px 0;
+}
+
+.sidebar ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+    display: block;
+    font-size: 14px;
+}
+
+.sidebar ul li a:hover {
+    background-color: #3333ff;
+}
+
+.content {
+    padding: 20px 20px 0 20px;
+    display: flex;
+    align-items: flex-start;
+}
+
+.content-text {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.content h2 {
+    font-size: 24px;
+    color: #000080;
+    margin-top: 0;
+}
+
+.content p {
+    font-size: 14px;
+    color: #000;
+    line-height: 1.6;
+}
+
+.content-img img {
+    width: 150px;
+    height: auto;
+}
+
+.footer {
+    clear: both;
+    background-color: #c7c7f5;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+    border-top: 3px solid #0000ff;
+}
+
+.footer p {
+    margin: 5px 0;
+    font-size: 12px;
+}
